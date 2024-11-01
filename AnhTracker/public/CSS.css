@@ -1,0 +1,45 @@
+body
+	{background-color: ##ffffff;}
+table, th, td
+	{border: 1px soild black;
+	border-collapse: collapse;}
+#nav
+	{list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #6A4E25;}
+div
+	{background-color: #F7F7F7;
+	padding: 30px;
+	margin-top: 10px;}
+h1
+	{color: #8c6731;
+	font-family: bungee;
+	font-size: 300%;
+	line-height: 0.5;
+	text-align: center;}
+
+h2
+	{color: #303030;
+	font-family: bungee;
+	font-size: 100%;
+	line-height: 0.1;
+	text-align: center;}
+p
+	{color: #303030;
+	font-family: toma sans;
+	font-size: 100%;
+	line-height: 0.8;}
+li a
+	{float: left;}
+li a
+	{display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;}
+ul
+	{font-family: toma sans;}
+li a:hover
+	{background-color: #433219;}
