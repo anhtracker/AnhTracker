@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+.navbar
+	{display: flex;
+	align-items: center;
+	justify-content: space-between;}
+.logo
+	{width: 15%;
+	cursor:pointer;
+	margin-left: 150px;}
+.navbar ul li
+	{list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	margin-left: 40px;}
+.navbar ul li a
+	{text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 600;}
+.navbar ul li::after
+	{content: '';
+	height: 3px;
+	width: 0;
+	background: #734d26;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	transition: 0.5s;}
+.navbar ul li:hover::after
+	{width: 100%;}
+.content
+	{width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;}
+.content h1
+	{font-size: 70px;
+	font-family: Toma sans;
+	margin-top: 80px;}
+.content p
+	{margin: 20px auto;
+	font-family: Toma sans;
+	font-weight: 200px;
+	line-height: 25px;}
+
+
+
